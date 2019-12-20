@@ -1,19 +1,18 @@
-package com.bibliophile.biblioconfigserver;
+package com.bibliophile.bookrating;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.circuitbreaker.EnableCircuitBreaker;
-import org.springframework.cloud.config.server.EnableConfigServer;
+import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 @SpringBootApplication
 @EnableEurekaClient
-@EnableConfigServer
 @EnableCircuitBreaker
-public class BiblioConfigServerApplication {
+public class BookRatingServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BiblioConfigServerApplication.class, args);
+		SpringApplication.run(BookRatingServiceApplication.class, args);
 	}
 
 }

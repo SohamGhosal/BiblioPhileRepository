@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.bibliophile</groupId>
-	<artifactId>admininfo</artifactId>
+	<artifactId>bookrating</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>AdminInformation</name>
-	<description>Information of Admins in the Application</description>
+	<name>BookRatingService</name>
+	<description>Demo project for Spring Boot</description>
 
 	<properties>
 		<java.version>13</java.version>
